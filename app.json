@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "expo-firebase-instagram",
+    "description": "expo-firebase-instagram",
+    "slug": "expo-firebase-instagram",
+    "privacy": "unlisted",
+    "sdkVersion": "29.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#000",
+    "extra": {
+      "backgroundColor": "#fafafa",
+      "textColor": "#454545",
+      "ga": "UA-xxxxxxxxx-x",
+      "firebase": {
+        "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "authDomain": "xxxxxxxxxxxxxxxxxxxxxxxxxx.firebaseapp.com",
+        "databaseURL": "https://xxxxxxxxxxxxxxxxxxxxxxxxxx.firebaseio.com",
+        "projectId": "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "storageBucket": "xxxxxxxxxxxxxxxxxxxxxxxxxx.appspot.com",
+        "messagingSenderId": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+      },
+      "sentry": "https://xxxxxxxxxxxx@sentry.io/xxxxxxxxx"
+    },
+    "locales": {
+      "ja": "./languages/ja.json",
+      "en": "./languages/en.json"
+    },
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#fafafa"
+    },
+    "ios": {
+      "buildNumber": "1",
+      "icon": "./assets/images/icon.png",
+      "bundleIdentifier": "xxxxxxxxxxxxxxx"
+    },
+    "android": {
+      "versionCode": 1,
+      "icon": "./assets/images/icon.png",
+      "package": "xxxxxxxxxxxxxxx",
+      "permissions": [
+        "CAMERA",
+        "AUDIO_RECORDING",
+        "NOTIFICATIONS",
+        "READ_INTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}

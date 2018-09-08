@@ -1,0 +1,50 @@
+{
+  "name": "app",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "e2e": "detox test --configuration ios.sim"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "6.3.1",
+    "ex-react-native-i18n": "0.0.4",
+    "expo": "^29.0.0",
+    "expo-analytics": "^1.0.7",
+    "firebase": "5.4.1",
+    "linkify-it": "^2.0.3",
+    "react": "16.4.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
+    "react-native-expo-image-cache": "^3.1.1",
+    "react-native-hyperlink": "0.0.14",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-navigation": "2.12.1",
+    "react-navigation-redux-helpers": "^2.0.5",
+    "react-navigation-tabs": "^0.6.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "sentry-expo": "^1.9.0",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "detox": "^7.2.0",
+    "detox-expo-helpers": "^0.2.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "mocha": "^5.2.0",
+    "npm-run-all": "^4.1.3"
+  },
+  "detox": {
+    "configurations": {
+      "ios.sim": {
+        "binaryPath": "bin/Exponent-2.7.0.app",
+        "type": "ios.simulator",
+        "name": "iPhone 8"
+      }
+    }
+  }
+}
