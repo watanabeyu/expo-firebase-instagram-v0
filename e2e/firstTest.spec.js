@@ -7,14 +7,14 @@ function timeout(ms) {
 describe('Example', () => {
   beforeEach(async () => {
     await reloadApp({
-      permissions:{
+      permissions: {
         notifications: 'YES',
       }
     });
     await timeout(10000);
   });
 
-  it('should have welcome screen', async () => {
+  it('HomeTest', async () => {
     await expect(element(by.id('Home'))).toBeVisible();
   });
 });
